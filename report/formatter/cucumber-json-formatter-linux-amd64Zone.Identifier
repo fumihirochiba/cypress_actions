@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/cucumber/json-formatter/releases/tag/v19.0.0
+HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/481657760/97126a36-fbe3-427f-af91-f3ad7d5e9bfe?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220912%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220912T115834Z&X-Amz-Expires=300&X-Amz-Signature=b246140be8ea154a6fbf52cef94fcaf267aac09649c63e06f61be6fe1b07c794&X-Amz-SignedHeaders=host&actor_id=101236347&key_id=0&repo_id=481657760&response-content-disposition=attachment%3B%20filename%3Dcucumber-json-formatter-linux-amd64&response-content-type=application%2Foctet-stream

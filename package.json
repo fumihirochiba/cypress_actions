@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.2.0",
+    "@cypress/webpack-preprocessor": "^5.12.2",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "^10.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-get-by-label": "^2.4.0",
+    "dayjs": "^1.11.5",
+    "multiple-cucumber-html-reporter": "^2.0.0",
+    "ts-loader": "^9.3.1",
+    "tsify": "^5.0.4",
+    "typescript": "^4.8.3",
+    "webpack": "^5.74.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/integration/step_definitions/**/*.{js,ts}",
+    "json": {
+      "enabled": true,
+      "output": "report/logs/preprocessor/cucumber-report.json",
+      "formatter": "report/formatter/cucumber-json-formatter"
+    },
+    "messages": {
+      "enabled": true,
+      "output": "report/logs/preprocessor/messages.ndjson"
+    }
+  },
+  "name": "cypress_ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
